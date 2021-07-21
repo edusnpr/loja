@@ -1,0 +1,28 @@
+﻿@model store.Models.Produto
+
+<h3>Produto -> Visualizar</h3>
+:)
+
+Razor:
+
+@{
+    string nome = "ed";
+}
+<h3>@nome</h3>
+
+<br />
+<h1>PRODUTO de store</h1>
+<b>ID</b> @Model.Id
+<br />
+<b>Nome</b> @Model.Nome
+<br />
+<b>Descricao</b> @Model.Descricao
+<br />
+<b>Valor</b> @Model.Valor
+<br />
+<b>Valor</b> @Model.Valor.ToString("C")
+<br />
+<br />
+<hr />
+
+Todos os direitos reservados &copy; @DateTime.Now.Year
